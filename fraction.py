@@ -70,7 +70,7 @@ class Fraction:
 def gcd(m, n):
     while m % n != 0:
         oldm = m
-        oldn =
+        oldn = n
         m = oldn
         n = oldm % oldn
     return n
